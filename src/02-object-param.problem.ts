@@ -1,11 +1,11 @@
 import { expect, it } from "vitest";
 
-// first method
+// first method : Pass an Object Type Directly
 // export const addTwoNumbers = (params: { first: number; second: number }) => {
 //   return params.first + params.second;
 // };
 
-// second method
+// second method : Create a Named Type
 // type AddTwoNumbersArgs = {
 //   first: number;
 //   second: number;
@@ -14,7 +14,7 @@ import { expect, it } from "vitest";
 //   return params.first + params.second;
 // };
 
-// third Method
+// third Method : Create an Interface
 interface AddTwoNumbersArgs {
   first: number;
   second: number;
