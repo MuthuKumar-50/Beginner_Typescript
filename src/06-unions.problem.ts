@@ -15,5 +15,5 @@ export const defaultUser: User = {
   id: 1,
   firstName: "Matt",
   lastName: "Pocock",
-  role: "I_SHOULD_NOT_BE_ALLOWED",
+  role: "admin",
 };
